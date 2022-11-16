@@ -9,6 +9,12 @@
       },
       "defaultValue": "https://raw.githubusercontent.com/Azure/RDS-Templates/master/ARM-wvd-templates/DSC/Configuration.zip"
     },
+    "proximityPlacementGroupId": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the proximity placement group"
+      }
+    },
     "availabilityOption": {
       "type": "string",
       "metadata": {
@@ -488,6 +494,9 @@
         },
         "diagnosticsProfile": {
           "bootDiagnostics": "[parameters('bootDiagnostics')]"
+        },
+        "proximityPlacementGroup": {
+           "id": "[parameters('proximityPlacementGroupId')]"
         },
         "licenseType": "Windows_Client"
       },
