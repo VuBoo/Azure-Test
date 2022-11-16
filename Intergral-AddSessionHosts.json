@@ -484,7 +484,7 @@
                     "_guidValue": {
                         "value": "[parameters('deploymentId')]"
                     },
-                    "proximityPlacementGroup": {
+                    "proximityPlacementGroupId": {
                         "value": "[parameters('proximityPlacementGroupId')]"
                     }
                 }
