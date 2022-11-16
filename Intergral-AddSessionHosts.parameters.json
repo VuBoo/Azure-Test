@@ -117,7 +117,7 @@
         "workspaceKey": {
             "value": "iBzuxzhAQmtcxZP4525L0T1xOyG3olV0Et+54rZXUhrxY51x6Ic5ytkQ3Xo6rKH6F2RwtpMkW1FbX9cV6awZvg==" // TODO: Fill in parameter value
         },
-        "proximityPlacementGroup": {
+        "proximityPlacementGroupId": {
             "value": "/subscriptions/cba1395f-adef-4d7a-ac3c-0e9624bca125/resourceGroups/INTC-RG-AVD/providers/Microsoft.Compute/proximityPlacementGroups/INTC-PPG-WUS-01"
         }
     }
